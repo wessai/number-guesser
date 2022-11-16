@@ -30,7 +30,7 @@ while True:
         if answer_on_count == int(answer_on_count):
             break
     except ValueError:
-        print('Вы ввели буквы при наборе, просьба вводить ответ числами')
+        print('Вы ввели буквы при ответе, просьба вводить ответ числами')
 try:
     if answer_on_count not in range(1, 10 + 1):
         print('Издеваться над игрой не очень хорошо, я же сказала, что попыток не может быть больше 10 и меньше 1')
